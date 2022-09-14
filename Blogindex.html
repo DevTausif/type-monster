@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Typer_</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  
+  <body>
+    <header>
+      <h1 class="title"><img src="./logo.png" /></h1>
+      <a href="./index.html" id="blog">Home</a>
+    </header>
+
+    <main>
+      <section id="articles" class="box-container">
+       <!-- Question 1 -->
+        <article>
+          <h2>Local Storage Vs. Session Storage</h2>
+          <p>
+            SessionStorage is similar to localStorage ;  The difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.
+          </p>
+        </article>
+
+        <!-- Question 2 -->
+        <article>
+          <h2>Global Scope Vs. Block Scope</h2>
+          <p>
+            In a browser environment, The global scope is controlled by the window object while in Node. js. It's controlled by the global object. Block scopes are what you get when you use if statements, for statements, and the like.
+          </p>
+        </article>
+        
+        <!-- Question 3 -->
+        <article>
+          <h2>What is Event Loop?</h2>
+          <p>
+            The event loop is the secret behind JavaScript's asynchronous 
+            programming. JS executes all operations on a single thread, but using a 
+            few smart data structures, it gives us the illusion of multi-threading.
+          </p>
+        </article>
+
+        <!-- Question 4 -->
+        <article>
+          <h2>When do we get undefined in JavaScript?</h2>
+          <p>
+            A variable that has not been assigned a value is of type undefined . A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned .
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <script src="./history.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
